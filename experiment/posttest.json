@@ -2,35 +2,69 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which substituent contributes 12 nm to λmax when present at the β-position in α, β-unsaturated ketones?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "–OH",
+        "b": "Alkyl group",
+        "c": "–OMe",
+        "d": "–NH2"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect: –OH contributes 30 nm in β-position.",
+        "b": "Correct: Alkyl groups contribute 12 nm in β-position.",
+        "c": "Incorrect: –OMe has a different contribution.",
+        "d": "Incorrect: –NH2 contributes 13 or 58 nm depending on position."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the base value for a 6-membered cyclic α, β-unsaturated ketone?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "210 nm",
+        "b": "202 nm",
+        "c": "215 nm",
+        "d": "214 nm"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect: 210 nm is for aldehydes.",
+        "b": "Incorrect: 202 nm is for 5-membered rings.",
+        "c": "Correct: 215 nm for 6-membered cyclic ketones.",
+        "d": "Incorrect: 214 nm is for acyclic ketones."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which group contributes the most (85 nm) to λmax in para position of an aromatic system?",
+      "answers": {
+        "a": "–OCH3",
+        "b": "–N(CH3)2",
+        "c": "–NHCOCH3",
+        "d": "–OH"
+      },
+      "explanations": {
+        "a": "Incorrect: –OCH3 adds 25 nm at para.",
+        "b": "Correct: –N(CH3)2 adds 85 nm at para.",
+        "c": "Incorrect: –NHCOCH3 adds 45 nm at para.",
+        "d": "Incorrect: –OH adds 25 nm at para."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which statement is true about exocyclic double bonds in the Woodward–Fieser system?",
+      "answers": {
+        "a": "They decrease λmax by 5 nm",
+        "b": "They have no effect on λmax",
+        "c": "They contribute 5 nm to λmax",
+        "d": "They only affect aromatic systems"
+      },
+      "explanations": {
+        "a": "Incorrect: They increase λmax, not decrease.",
+        "b": "Incorrect: They do contribute to λmax.",
+        "c": "Correct: Each exocyclic double bond adds 5 nm.",
+        "d": "Incorrect: They apply to dienes and ketones too."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"

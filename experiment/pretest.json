@@ -1,38 +1,72 @@
 {
   "version": 2.0,
   "questions": [
-    {
-      "question": "This is a Sample Question 1?",
+   {
+      "question": "What is the base value for a homoannular diene system according to Woodward–Fieser rules?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "214 nm",
+        "b": "253 nm",
+        "c": "202 nm",
+        "d": "195 nm"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect: 214 nm is for heteroannular diene.",
+        "b": "Correct: 253 nm is the base value for homoannular diene.",
+        "c": "Incorrect: 202 nm is for 5-membered cyclic ketone.",
+        "d": "Incorrect: 195 nm is for unsaturated acids/esters."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "How much does each alkyl substituent or ring residue contribute to the λmax in a conjugated diene system?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "10 nm",
+        "b": "12 nm",
+        "c": "5 nm",
+        "d": "30 nm"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect: 10 nm is for α-position in carbonyl compounds.",
+        "b": "Incorrect: 12 nm is for β-position in carbonyl compounds.",
+        "c": "Correct: 5 nm per substituent in diene system.",
+        "d": "Incorrect: 30 nm is for conjugation extension."
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which type of diene has conjugated double bonds in different rings?",
+      "answers": {
+        "a": "Homoannular diene",
+        "b": "Heteroannular diene",
+        "c": "Endocyclic diene",
+        "d": "Exocyclic diene"
+      },
+      "explanations": {
+        "a": "Incorrect: Homoannular means same ring.",
+        "b": "Correct: Heteroannular means in different rings.",
+        "c": "Incorrect: Endocyclic refers to location of double bond.",
+        "d": "Incorrect: Exocyclic refers to bond connected outside ring."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the contribution of a double bond that extends conjugation in λmax calculation?",
+      "answers": {
+        "a": "18 nm",
+        "b": "30 nm",
+        "c": "5 nm",
+        "d": "12 nm"
+      },
+      "explanations": {
+        "a": "Incorrect: 18 nm applies to γ or higher substituents.",
+        "b": "Correct: Conjugation extension adds 30 nm.",
+        "c": "Incorrect: 5 nm is for exocyclic bond or alkyl in dienes.",
+        "d": "Incorrect: 12 nm is for β-substituents in carbonyl compounds."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
