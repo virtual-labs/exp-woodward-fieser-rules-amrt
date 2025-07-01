@@ -1,4 +1,11 @@
-//Your JavaScript goes in here
+// Get the base path dynamically
+const currentUrl = window.location.href;
+const basePath = currentUrl.substring(0, currentUrl.lastIndexOf("/"));
+const swfPath = basePath + "/flash/simulation/index.swf";
+
+// Set the dynamic link text
+document.getElementById("copyText").textContent = swfPath;
+
 function copyLink() {
   const text = document.getElementById("copyText").textContent;
   navigator.clipboard.writeText(text).then(() => {
